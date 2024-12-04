@@ -1,17 +1,4 @@
-type Age = number;
-type Name = string;
+let a: any[] = [1, 2, 3, 4];
+let b: any = false;
 
-type Player = {
-  name: Name;
-  age?: Age;
-};
-
-function PlayerMaker(name: string): Player {
-  return {
-    name,
-  };
-}
-
-const nico = PlayerMaker("nico");
-
-nico.age = 12;
+a + b;
