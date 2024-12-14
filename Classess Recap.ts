@@ -19,4 +19,8 @@ class Player extends User {
   }
 }
 
+class King extends Player {
+  removeUser(): void {}
+}
+
 const nico = new Player("nico", "las", "니꼬");
